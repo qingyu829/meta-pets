@@ -49,6 +49,13 @@ export const PET_TYPES = {
                 secondary: '#6b6b6b',    // Darker gray
                 accent: '#4a4a4a',       // Charcoal
                 breed: 'schnauzer'
+            },
+            shiba: {
+                name: 'Shiba Inu',
+                primary: '#c8611a',      // Classic Shiba red
+                secondary: '#a04d12',    // Deeper red-brown
+                accent: '#7a3a0e',       // Dark brown
+                breed: 'shiba'
             }
         },
         defaultColor: 'boxer',
@@ -75,6 +82,10 @@ export const PET_TYPES = {
                     <div class="dog-eyebrow left"></div>
                     <div class="dog-eyebrow right"></div>
                     <div class="dog-beard"></div>
+                `,
+                'shiba': `
+                    <div class="dog-snout shiba-snout"></div>
+                    <div class="dog-urajiro"></div>
                 `
             };
             

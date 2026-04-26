@@ -619,3 +619,88 @@
     left: 4px;
 }
 
+/* --- SHIBA INU --- */
+/* Pointed fox ears, cream urajiro markings, iconic curled tail */
+.breed-shiba .dog-head {
+    width: 28px;
+    height: 26px;
+    border-radius: 45% 45% 40% 40%;
+    top: 7px;
+}
+
+.breed-shiba .dog-ear {
+    width: 11px;
+    height: 14px;
+    border-radius: 45% 45% 10% 10%;
+    top: -9px;
+    background: linear-gradient(180deg, var(--dog-primary), var(--dog-secondary));
+}
+
+.breed-shiba .dog-ear.left {
+    left: 2px;
+    transform: rotate(-10deg);
+}
+
+.breed-shiba .dog-ear.right {
+    right: 2px;
+    transform: rotate(10deg);
+}
+
+/* Fox-like pointed muzzle */
+.shiba-snout {
+    width: 12px;
+    height: 9px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f5e6d3;
+    border-radius: 40% 40% 50% 50%;
+}
+
+/* Cream urajiro cheek/face marking */
+.dog-urajiro {
+    position: absolute;
+    width: 18px;
+    height: 13px;
+    background: rgba(245, 230, 211, 0.55);
+    border-radius: 40% 40% 50% 50%;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.breed-shiba .dog-body {
+    width: 43px;
+    height: 26px;
+    border-radius: 30px 20px 20px 30px;
+}
+
+.breed-shiba .dog-legs {
+    top: 38px;
+}
+
+.breed-shiba .dog-leg {
+    width: 9px;
+    height: 13px;
+}
+
+.breed-shiba .dog-leg.front-left { left: 37px; }
+.breed-shiba .dog-leg.front-right { left: 47px; }
+.breed-shiba .dog-leg.back-left { left: 8px; }
+.breed-shiba .dog-leg.back-right { left: 18px; }
+
+/* Iconic Shiba curl: a ring with two sides clipped to look like a sickle tail */
+.breed-shiba .dog-tail {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 5px solid var(--dog-secondary);
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    top: 13px;
+    left: -3px;
+    transform: rotate(30deg);
+    animation: none;
+}
+
